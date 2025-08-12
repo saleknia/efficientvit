@@ -13,7 +13,7 @@ setup(
         "opencv-python",
         "tqdm",
         "torchprofile",
-        "scipy",
+        "scipy>=1.11,<1.13",
         "torch-fidelity",
         "diffusers",
         "omegaconf",
